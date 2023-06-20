@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <style>
+      
+      body{background-image:url('backpack.jpg');background-repeat: no-repeat; background-size: 100%;}
+
+      label{
+        font-size: 18px;
+        color: rgb(68, 43, 15);
+        font-family: 'Franklin Gothic Medium', 'Arial ', Arial, sans-serif;
+        font-weight: 500;
+      }
+      input{
+        width: 290px;
+        margin: 10px;
+        padding: 2px;
+        display: flex;
+        border: 2;
+        box-sizing: border-box;
+      }
+      #buttons{
+        text-align: right;
+      }
+      
+      #checkbox{
+        position: absolute;
+      }
+  
+      
+    </style>
+  </head>
+  <body>
+    <h1>Student Login Form</h1>
+    <form action="">
+    <table>
+      <tr><td>
+        <label for="Username">Username</td> <td><input type="Username" /></label
+        ></td><br />
+      </tr>
+      <tr><td>
+        <label for="Password">Password</td><td><input type="password" /></label
+        ></td> <br />
+      </tr>
+      <tr><td>
+        <label for="Department">Department </td><td><input type="Text" /></label
+        ></td><br />
+      </tr>
+      <tr><td>
+        <label for="Level">Level</td><td><input type="number" /></label
+        ></td> <br />
+      </tr>
+      
+      <tr><td id="checkbox"><input type="checkbox"></td><td style="text-align: center;"><label for="remember">Remember Me</label></td></tr>
+      <tr id = "buttons">
+        <td><button>Cancel</button> </td>
+        <td><button>Login</button></td> 
+      </tr> 
+    </table>
+</form>
+    
+   
+  </body>
+</html>
